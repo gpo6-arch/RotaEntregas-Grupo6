@@ -1,0 +1,10 @@
+# Pastas de dependências de projetos JS/Node
+node_modules/
+
+# Pastas de build
+dist/
+build/
+
+# Logs e arquivos temporários do sistema
+npm-debug.log*
+.DS_Store
