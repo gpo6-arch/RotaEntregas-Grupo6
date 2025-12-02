@@ -68,6 +68,18 @@ expo start
 Abra o app no celular via Expo Go ou use um emulador.
 
 ---
+# Observação: 🚧 Desafio na Configuração Docker
+
+A configuração do Docker para a API encontrou problemas de instabilidade devido à complexidade da estrutura de diretórios e ao alto volume de dados no contexto de build.
+
+**❌ Dificuldades Encontradas:**
+- Sobrecarga de Contexto: Tempo excessivo para carregar o contexto e cancelamentos automáticos do build por exceder os limites do Docker Desktop.
+- Problemas no Windows: Caminhos longos e pastas aninhadas aumentaram significativamente o tempo de transferência do contexto.
+- Conflito de Localização: Falhas na execução causadas por um desalinhamento entre o Dockerfile e o arquivo principal da API (server.js).
+
+Por fim, estou enviando o repositório.
+
+---
 👥 Integrantes
 O projeto foi desenvolvido pelos seguintes integrantes do Grupo 06:
 
